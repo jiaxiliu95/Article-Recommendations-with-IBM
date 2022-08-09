@@ -27,10 +27,11 @@ Here is a description of the files in this repository:
 - [data](data)
   - [articles_community.csv](/data/articles_community.csv) : portfolio data of the articles, including the article id, article name, article description and article body.
   - [user_item_interactions.csv](user_item_interactions.csv): the user-item interactions, including the article id, the article name, and the email of the user who reads the article.
+  - [user_item_matrix.p](user_item_matrix.p) : a user-item interaction matrix that is ready to use for analysis.
 - [requirements.txt](requirements.txt) : one can use this file to set up the environment required for this project.
 - [Recommendations_with_IBM.ipynb](Recommendations_with_IBM.ipynb) : analysis and results for the project (one can run the code in Jupyter Notebook with required libraries installed).
 - [project_tests.py](project_tests.py) : include the tests used in the analysis
-- [user_item_matrix.p](user_item_matrix.p) : a user-item interaction matrix that is ready to use for analysis.
+- [top_5.p](top_5.p), [top_10.p](top_10.p), [top_20.p](top_20.p): correct solutions for the tests in project_test.py.
 
 ## Results
 
